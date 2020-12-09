@@ -1,4 +1,0 @@
-2020-12-08 18:40:34.822 [TestNG-test=ebay_Automation-1][9267] INFO  utilities.TestEnvironment - execute test in local
-2020-12-08 18:40:34.822 [TestNG-test=ebay_Automation-2][9267] INFO  utilities.TestEnvironment - execute test in local
-2020-12-08 18:41:04.546 [TestNG-test=ebay_Automation-2][38991] INFO  utilities.TestEnvironment - execute test in local
-2020-12-08 18:41:31.033 [TestNG-test=ebay_Automation-1][65478] INFO  grid.EbayPriceValidation - open bowser
