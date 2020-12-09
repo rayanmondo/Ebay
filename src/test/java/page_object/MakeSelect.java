@@ -40,11 +40,11 @@ public class MakeSelect extends NavigationBar{
         ActOn.element(driver,search).click();
         return this;
     }
-    public MakeSelect pageVal(){
-        ActOn.browser(driver).validateTitle("Acura CL in Cars & Trucks | eBay");
-        return this;
+    // public MakeSelect pageVal(){
+    //     ActOn.browser(driver).validateTitle("Acura CL in Cars & Trucks | eBay");
+    //     return this;
 
-    }
+    // }
 //    public Home clickLogo(){
 //        ActOn.element(driver,returnHomePage).click();
 //        return new Home(driver);
