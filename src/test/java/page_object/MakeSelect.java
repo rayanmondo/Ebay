@@ -15,7 +15,7 @@ public class MakeSelect extends NavigationBar{
     private final By zipCode=By.name("_stpos");
     private final By condition =By.name("LH_ItemCondition");
     private final By search = By.id("s0-26_1-9-0-1[0]-0-1-2-14[0[0]]");
-    private final By returnHomePage=By.id("gh-logo");
+//    private final By returnHomePage=By.id("gh-logo");
     public MakeSelect(WebDriver driver) {
         super(driver);
 
@@ -45,10 +45,10 @@ public class MakeSelect extends NavigationBar{
         return this;
 
     }
-    public Home clickLogo(){
-        ActOn.element(driver,returnHomePage).click();
-        return new Home(driver);
-    }
+//    public Home clickLogo(){
+//        ActOn.element(driver,returnHomePage).click();
+//        return new Home(driver);
+//    }
 //    public MakeSelect priceVal(String totalMonthlyPayment){
 //        // LOGGER.info("expected total monthly payment"+totalMonthlyPayment);
 //        By monthlyPaymentLocator=By.xpath("//*[@id='analysisDiv']/table[3]//td[2][text()='"+totalMonthlyPayment+"']");

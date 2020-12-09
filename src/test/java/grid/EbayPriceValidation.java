@@ -42,7 +42,8 @@ public class EbayPriceValidation {
                 .zip("18966")
                 .selectondition("Used")
                 .findButton()
-                .pageVal();
+                .pageVal()
+                .clickLogo();
 
 
 

@@ -11,6 +11,7 @@ public class NavigationBar {
     private final Logger LOGGER= LogManager.getLogger(NavigationBar.class);
     private final By moseHover = By.xpath("//*[@id='mainContent']/div[1]/ul/li[3]/a[text()='Motors']");
     private final By ClickOnCarsTruck=By.xpath("//*[@id='mainContent']/div//a[text()='Cars & Trucks']");
+    private final By returnHomePage=By.id("gh-logo");
 
     WebDriver driver;
 
@@ -25,6 +26,10 @@ public class NavigationBar {
     public MakeSelect clickLink() {
         ActOn.element(driver, ClickOnCarsTruck).click();
         return new MakeSelect(driver);
+    }
+    public Home clickLogo(){
+        ActOn.element(driver,returnHomePage).click();
+        return new Home(driver);
     }
 
 }
