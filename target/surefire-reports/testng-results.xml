@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-08T22:07:19 EST" name="automation_test" finished-at="2020-12-08T22:09:11 EST" duration-ms="111765">
+    <groups>
+    </groups>
+    <test started-at="2020-12-08T22:07:19 EST" name="ebay_Automation" finished-at="2020-12-08T22:09:11 EST" duration-ms="111765">
+      <class name="grid.EbayPriceValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:grid.EbayPriceValidation@258d79be]" started-at="2020-12-08T22:07:19 EST" name="openBrowser" finished-at="2020-12-08T22:08:56 EST" duration-ms="96749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="setVal()[pri:0, instance:grid.EbayPriceValidation@258d79be]" started-at="2020-12-08T22:08:56 EST" name="setVal" finished-at="2020-12-08T22:09:11 EST" duration-ms="14994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setVal -->
+      </class> <!-- grid.EbayPriceValidation -->
+      <class name="grid.Chrome1">
+        <test-method signature="RunInChrome()[pri:0, instance:grid.Chrome1@14f9390f]" started-at="2020-12-08T22:07:19 EST" name="RunInChrome" finished-at="2020-12-08T22:09:10 EST" duration-ms="111225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunInChrome -->
+      </class> <!-- grid.Chrome1 -->
+    </test> <!-- ebay_Automation -->
+  </suite> <!-- automation_test -->
+</testng-results>
